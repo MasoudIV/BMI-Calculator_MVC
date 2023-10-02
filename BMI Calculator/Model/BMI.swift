@@ -16,7 +16,7 @@ struct BMI {
     init(value: Float) {
         self.value = value
         
-        switch self.value {
+    switch self.value {
         case ..<18.5:
             advice = "Eat more pies!"
             color = #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1)
